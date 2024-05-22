@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.website{
+    width: 100%;
+    background: url(back\ groud.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+ul{
+    margin-top: -1%;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 40px;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-top: -3%;
+}
+ul li a:hover{
+    color: gray;
+}
