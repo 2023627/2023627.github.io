@@ -1,44 +1,81 @@
-*{
+body {
     margin: 0;
     padding: 0;
-}
-.website{
-    width: 100%;
-    background: url(back\ groud.jpg);
-    background-position: center;
+    background: url("back\ groud.jpg") no-repeat center center fixed;
     background-size: cover;
-    height: 100vh;
-    position: relative;
+    font-family: sans-serif;
 }
-.navbar{
-    width: 86%;
-    display: flex;
-    margin: auto;
-    padding: 15px 0;
-    align-items: center;
-    justify-content: space-between;
+
+nav {
+    width: 100%;
+    overflow: auto;
+    background: gray;
 }
-.navbar .logo{
-    width: 160px;
-    cursor: pointer;
-    margin-top: -3%;
-    margin-left: -2%;
-}
-ul{
-    margin-top: -1%;
-}
-ul li {
+
+ul {
+    padding: 0;
+    margin: 0 0 0 250px;
     list-style: none;
-    display: inline-block;
-    padding: 40px;
 }
-ul li a{
-    font-size: 20px;
-    font-weight: bold;
+
+li {
+    float: left;
+}
+
+li a {
+    width: 100px;
+    display: block;
+    padding: 40px;
     text-decoration: none;
     color: white;
-    margin-top: -3%;
+    text-align: center;
 }
-ul li a:hover{
-    color: gray;
+
+ul li a:hover {
+    color: red;
+}
+
+.logo img {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.video-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 200px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    color: white; 
+}
+
+h1{
+    padding: 2%;
+    text-decoration:underline;
+    text-decoration-color:red ;
+    text-decoration-style:wavy;
+    color: white;
 }
