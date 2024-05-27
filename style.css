@@ -79,3 +79,37 @@ h1{
     text-decoration-style:wavy;
     color: white;
 }
+
+.container {
+    float: center;
+    margin: 50px;
+    }
+    
+.grey-block {
+    background-color: grey;
+    color: white;
+    padding: 20px; /* Increased padding */
+    margin: 20px;  /* Increased margin */
+    border-radius: 5px;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center-align text inside the block */
+}
+
+.highlight {
+    background-color: transparent; /* Remove the default highlight background */
+    color: #FFD700; /* Change the text color to gold */
+    display: inline-block; /* Ensure mark behaves as an inline-block element */
+    margin-top: 10px; /* Add some space above the mark element */
+}
+
+.images {
+    padding: 10px; /* Increased padding */
+    margin: 20px;  /* Increased margin */
+}
+
+.images img {
+    margin: 50px; /* Add margin to create space between images */
+}
+
+
