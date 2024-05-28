@@ -1,3 +1,4 @@
+/*its a body for our website its include web height margin padding or font and our webpage background*/
 body {
     margin: 0;
     padding: 0;
@@ -8,13 +9,13 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
+/*helps in decorating our nevigation bar*/
 nav {
     width: 100%;
     overflow: auto;
     background: gray;
 }
-
+/*help in styling our un ordered list*/
 ul {
     padding: 0;
     margin: 0 0 0 250px;
@@ -34,12 +35,12 @@ li a {
     text-align: center;
 }
 
-ul li a:hover,
+ul li a:hover,/*helps in creating effect for our nevigation bar*/
 ul li a:active {
     color: red;
     border-bottom: 3px solid red;
 }
-
+/*for styling our button in nevbar*/
 .button {
     background-color: red;
     border: none;
@@ -63,7 +64,7 @@ ul li a:active {
     margin-top: 5px;
     margin-left: 10px;
 }
-
+/*for styling our video in webpage*/
 .video-container {
     position: relative;
     display: flex;
@@ -75,7 +76,7 @@ video {
     max-width: 100%;
     height: auto;
 }
-
+/*for styling image in video*/
 .overlay-image {
     position: absolute;
     top: 50%;
@@ -111,29 +112,30 @@ h1 {
 .grey-block {
     background-color: grey;
     color: white;
-    padding: 20px; /* Increased padding */
-    margin: 20px;  /* Increased margin */
+    padding: 20px; 
+    margin: 20px;  
     border-radius: 5px;
     display: inline-block;
     font-family: Arial, sans-serif;
-    text-align: center; /* Center-align text inside the block */
+    text-align: center; /
 }
-
+/*highlight years*/
 .highlight {
-    background-color: transparent; /* Remove the default highlight background */
-    color: #FFD700; /* Change the text color to gold */
-    display: inline-block; /* Ensure mark behaves as an inline-block element */
-    margin-top: 10px; /* Add some space above the mark element */
+    background-color: transparent; 
+    color: #FFD700; 
+    display: inline-block; 
+    margin-top: 10px; 
 }
 
 .images {
-    padding: 10px; /* Increased padding */
-    margin: 20px;  /* Increased margin */
+    padding: 10px; 
+    margin: 20px;  
 }
 
 .images img {
-    margin: 50px; /* Add margin to create space between images */
+    margin: 50px; 
 }
+/*styling for footer*/
 .footer {
     width: 105%;
     margin: -4%;
