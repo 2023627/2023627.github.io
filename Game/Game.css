@@ -1,3 +1,4 @@
+/*its a body of our webpage like how we want to display our text or background of our webpade*/
 body {
     margin: 0;
     padding: 0;
@@ -8,13 +9,16 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
+/*its used to decorate our nevigation bar*/
 nav {
+    /*here i have given width to my nevigation bar*/
     width: 100%;
+    /*over flow prorty helps set the desired behavior when content does not fit in the box*/
     overflow: auto;
+    /*I st my nevigation background as gray*/
     background: gray;
 }
-
+/*decoration and color for my un-ordered list*/
 ul {
     padding: 0;
     margin: 0 0 0 250px;
@@ -33,19 +37,19 @@ li a {
     color: white;
     text-align: center;
 }
-
+/*I decorated my list with hover affect*/
 ul li a:hover,
 ul li a:active {
     color: red;
     border-bottom: 3px solid red;
 }
-
+/*helps in decorating button for original website*/
 .button {
-    background-color: red;
+    background-color: red;/*Button background was set as red*/
     border: none;
     color: white;
     padding: 30px 30px;
-    text-align: center;
+    text-align: center;/*text foe button was aligned center*/
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -54,10 +58,10 @@ ul li a:active {
     border-radius: 4px;
 }
 
-.button:hover {
+.button:hover {         /*button hover background was set as black */
     background-color: black;
 }
-
+/*helps in align among us logo at the left*/
 .logo img {
     position: absolute;
     margin-top: 5px;
@@ -75,7 +79,7 @@ video {
     max-width: auto;
     height: 600;
 }
-
+/*helps in align Among us image over the video*/
 .overlay-image {
     position: absolute;
     top: 50%;
@@ -84,6 +88,8 @@ video {
     width: 350px;
     height: 200px;
 }
+
+/*its used to decorate y text*/
 .Play {
     padding: 2%;
     text-align: center;
@@ -92,7 +98,7 @@ video {
     text-decoration-style: double;
     color: white;
 }
-
+/*align and color for heading 3*/
  h3{
     padding: 0%;
     margin: auto;
@@ -100,6 +106,8 @@ video {
     text-decoration: none;
     color: white;
 }
+
+/*image for crewmates*/
 .img {
     display: flex;
     justify-content: center;
@@ -111,7 +119,7 @@ video {
     max-width:500px; 
     height: auto; 
 }
-
+/*helps in making cards effect*/
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -135,7 +143,7 @@ video {
     color: white;
     text-align: center;
 }
-
+/*Decorating footer at the last of the page*/
 .footer {
     width: 100%;
     margin: 0%;
